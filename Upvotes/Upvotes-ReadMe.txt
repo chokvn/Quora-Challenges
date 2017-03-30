@@ -18,3 +18,13 @@ consecutive days, it does not take into account the magnitude of upvotes per day
 have similar patterns, the variable or changed layout could have the same pattern but with a higher amount of net upvotes per
 day by comparison. Assuming more upvotes means more exposure or effectiveness of the layout to users, using the results from
 this program may not sufficiently reflect the benefits.
+
+*Method
+The method employed to create this program was to create the window with size determined by input and analyze the window
+as it "slided" through the list of upvotes one by one. The analysis for this window determines whether the first two numbers
+are in an increasing or decreasing pattern. This increases the count for non-decreasing or non-increasing respectively.
+Afterwards, the next numbers are analyzed by adding the next number to the sequence and checked for the same non-decreasing
+or non-increasing nature. When the sequence stops in one of the two manners, the second number of the sequence is pitted
+against the third number and the pattern continues until they reach the last two numbers.
+
+*Improvement Ideas
