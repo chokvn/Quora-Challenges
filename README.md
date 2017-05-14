@@ -1,4 +1,7 @@
-#Quora Challenges
+# Quora Challenges
 
 The files in this repository are those related to challenges found at https://www.quora.com/challenges.
-These solutions have been created from my learning of python combined with an analytical motivation to solve these challenges in a logical manner. The coding has been initially developed unguided but I hope to return to these Quora challenge solutions to improve efficiency or take an alternative approach.
+
+A more detailed description and analysis of the solutions can be found in the README files in each challenge's folder. However, a summary of the methods employed for each solution is described below:
+1) Upvotes - A 'viewing' window for period of days is created and 'slides' across the upvotes array to determine number of nonincreasing and nondecreasing trends.
+2) Related Questions - A depth-first search was performed on the relation tree with checkpoints to revert back in case the path does not find the endpoints.
